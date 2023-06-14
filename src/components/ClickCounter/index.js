@@ -16,7 +16,7 @@ class ClickCounter extends Component {
       <div className="bg-container">
         <h1 className="heading">
           The Button has been clicked
-          <spam className="number"> {count} </spam>
+          <span className="number"> {count} </span>
           times
         </h1>
         <p className="para">Click the button to increase the count!</p>
